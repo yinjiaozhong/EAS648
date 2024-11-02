@@ -4,7 +4,7 @@ author: "Yinjiao Zhong"
 date: "`r format(Sys.Date(), '%m/%d/%Y')`"
 output:
   pdf_document: default
-  html_document:: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -210,19 +210,4 @@ ggplot(boulder, aes(x = PT_Elev)) +
 
 ### Analysis Summary
 
-Elevation Distribution: The map highlights the variation in elevation across the Boulder area, with higher elevations concentrated in southwest regions.The scatter plot suggests that we can also see the elevation distribution from the histogram
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Elevation Distribution: The map highlights the variation in elevation across the Boulder area, with higher elevations concentrated in southwest regions.The scatter plot suggests that we can also see the elevation distribution from the histogram.
